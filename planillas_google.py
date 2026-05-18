@@ -23,6 +23,9 @@ def acceder_planilla_google(archivo_excel, numero_planilla = 0 ):
     df = pd.DataFrame(data)
     return df
 
+def cargar_mes_actual(archivo_excel, numero_planilla = 0):
+    pass
+
 def update_planilla_google(df,archivo_excel, numero_planilla=0):
 
     client = google_open_client()
